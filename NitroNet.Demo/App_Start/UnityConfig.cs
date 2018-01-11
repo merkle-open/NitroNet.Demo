@@ -1,6 +1,9 @@
 using System;
 using Microsoft.Practices.Unity;
-using Microsoft.Practices.Unity.Configuration;
+using System.Web.Hosting;
+using NitroNet.ViewEngine.IO;
+using System.Configuration;
+using NitroNet.UnityModules;
 
 namespace NitroNet.Demo.App_Start
 {
@@ -37,6 +40,11 @@ namespace NitroNet.Demo.App_Start
 
             // TODO: Register your types here
             // container.RegisterType<IProductRepository, ProductRepository>();
+
+            var rootPath = HostingEnvironment.MapPath("~/");
+            var basePath = PathInfo.Combine(PathInfo.Create(rootPath), PathInfo.Create(ConfigurationManager.AppSettings["NitroNet.BasePath"])).ToString();
+
+            new DefaultUnityModule(basePath).Configure(container);
         }
     }
 }
