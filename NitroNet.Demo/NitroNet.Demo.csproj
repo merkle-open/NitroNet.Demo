@@ -195,7 +195,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="App_Start\DefaultCastleWindsorModule.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
@@ -218,7 +217,10 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="nitronet-config.json.example" />
+    <None Include="nitronet-config.json" />
+    <Content Include="frontend\patterns\molecules\about\about.hbs" />
+    <Content Include="frontend\patterns\molecules\contact\contact.hbs" />
+    <Content Include="frontend\patterns\molecules\index\index.hbs" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -247,6 +249,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="frontend\patterns\atoms\" />
+    <Folder Include="frontend\patterns\organisms\" />
+    <Folder Include="frontend\views\_partials\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
