@@ -217,6 +217,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="frontend\patterns\organisms\header\header.hbs" />
+    <Content Include="frontend\patterns\organisms\footer\footer.hbs" />
     <None Include="nitronet-config.json" />
     <Content Include="frontend\patterns\molecules\about\about.hbs" />
     <Content Include="frontend\patterns\molecules\contact\contact.hbs" />
@@ -250,7 +252,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="frontend\patterns\atoms\" />
-    <Folder Include="frontend\patterns\organisms\" />
     <Folder Include="frontend\views\_partials\" />
     <Folder Include="Models\" />
   </ItemGroup>
