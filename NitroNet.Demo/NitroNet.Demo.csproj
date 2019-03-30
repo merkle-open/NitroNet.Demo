@@ -76,22 +76,22 @@
       <HintPath>..\packages\Newtonsoft.Json.Schema.1.0.8\lib\net45\Newtonsoft.Json.Schema.dll</HintPath>
     </Reference>
     <Reference Include="NitroNet.Common, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NitroNet.Core.1.1.2\lib\net452\NitroNet.Common.dll</HintPath>
+      <HintPath>..\packages\NitroNet.Core.1.1.3\lib\net452\NitroNet.Common.dll</HintPath>
     </Reference>
     <Reference Include="NitroNet.Core, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NitroNet.Core.1.1.2\lib\net452\NitroNet.Core.dll</HintPath>
+      <HintPath>..\packages\NitroNet.Core.1.1.3\lib\net452\NitroNet.Core.dll</HintPath>
     </Reference>
     <Reference Include="NitroNet.Mvc, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NitroNet.Core.1.1.2\lib\net452\NitroNet.Mvc.dll</HintPath>
+      <HintPath>..\packages\NitroNet.Core.1.1.3\lib\net452\NitroNet.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="NitroNet.UnityModules, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NitroNet.UnityModules.1.1.2\lib\net452\NitroNet.UnityModules.dll</HintPath>
+      <HintPath>..\packages\NitroNet.UnityModules.1.1.3\lib\net452\NitroNet.UnityModules.dll</HintPath>
     </Reference>
     <Reference Include="NitroNet.ViewEngine, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NitroNet.Core.1.1.2\lib\net452\NitroNet.ViewEngine.dll</HintPath>
+      <HintPath>..\packages\NitroNet.Core.1.1.3\lib\net452\NitroNet.ViewEngine.dll</HintPath>
     </Reference>
     <Reference Include="NitroNet.ViewEngine.TemplateHandler, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NitroNet.Core.1.1.2\lib\net452\NitroNet.ViewEngine.TemplateHandler.dll</HintPath>
+      <HintPath>..\packages\NitroNet.Core.1.1.3\lib\net452\NitroNet.ViewEngine.TemplateHandler.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -153,10 +153,10 @@
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="Veil, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NitroNet.Core.1.1.2\lib\net452\Veil.dll</HintPath>
+      <HintPath>..\packages\NitroNet.Core.1.1.3\lib\net452\Veil.dll</HintPath>
     </Reference>
     <Reference Include="Veil.Handlebars, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NitroNet.Core.1.1.2\lib\net452\Veil.Handlebars.dll</HintPath>
+      <HintPath>..\packages\NitroNet.Core.1.1.3\lib\net452\Veil.Handlebars.dll</HintPath>
     </Reference>
     <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
